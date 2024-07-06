@@ -61,4 +61,4 @@ def index_post():
         target_language=target_language
     )
 
-app.run()
+app.run(host="0.0.0.0")
